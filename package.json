@@ -1,0 +1,17 @@
+{
+    "name": "twitter-autoload",
+    "fullName": "Twitter Autoload",
+    "id": "jid1-h6kBai7Sqd6bbw",
+    "description": "Automatically load new tweets on Twitter.  \n\nNew tweets are loaded only when the page is scrolled all the way to the top (emulating the behavior of the Twitter and TweetDeck apps).",
+    "author": "Nathan Malkin",
+    "license": "GPL v3",
+    "version": "0.1",
+    "homepage": "https://github.com/nmalkin/twitter-autoload",
+    "preferences": [{
+        "title": "Refresh Interval",
+        "name": "interval",
+        "type": "integer",
+        "value": 3,
+        "description": "How often the Twitter feed should be refreshed (seconds)"
+    }]
+}
